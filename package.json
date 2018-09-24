@@ -1,0 +1,21 @@
+{
+  "name": "neobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "BOT_TOKEN=633730055:AAG_UHr7foxNM5vX98sAyLf9-ZZjNEvdDA4 nodemon index.js"
+  },
+  "author": "Dmitry Chirkin <josser@nixsolutions.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "debug": "^4.0.1",
+    "natural": "^0.6.1",
+    "neo4j-driver": "^1.7.0-beta01",
+    "telegraf": "^3.24.0"
+  }
+}
